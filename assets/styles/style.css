@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    background-color: #ECD9CA;
+}
+pre {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #23211E;
+}
+.subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #23211E;
+}
+.heading {
+    font-size: 24px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #23211E;
+}
+.subheading {
+    font-size: 24px;
+    font-family: 'Cormorant Garamond', serif;
+    color:#6A5F51;
+    margin-bottom: 20px;
+}
+.text {
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5;
+    color: #23211E;
+    margin: 0;
+}
+.description {
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5;
+    color:#6A5F51;
+    margin: 0;
+    margin-left: 20px;
+}
+
+#name {
+    font-size: 30px;
+    color: #F8F6F2;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#navbar {
+    background-color: #B52C13;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+#nav-item-container {
+    margin-right: 0px;
+}
+
+.nav-item {
+    margin: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+    color: #F8F6F2;
+    text-decoration: none;
+    font-size: 20px;  
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-item:hover {
+    background-color: rgba(58, 28, 9, 0.4);
+}
+
+#home-banner {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+#banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    font-size: 40px;
+    color: #F8F6F2;
+    font-family: 'Quicksand', sans-serif;
+    /*banner*/
+    padding: 20px;
+    height: auto;
+    width: 40%;
+    background-color: rgba(58, 28, 9, 0.6);
+}
+
+.divider {
+    width: 100%;
+    height: 16px;
+    background-color: #B52C13;
+}
+
+#menu-block-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-block {
+    position: relative;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 25%;
+    height: 400px;
+}
+.menu-block-image {
+    object-fit: cover;
+}
+
+.menu-block-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14%;
+    color: #F8F6F2;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+   /*banner*/
+    height: 50px;
+    width: 100%;
+    background-color: rgba(58, 28, 9, 0.5);
+}
+.menu-block-text:hover {
+    background-color: rgba(58, 28, 9, 0.7);
+}
+
+#hours-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    margin-right: 80px; 
+}
+
+#hours-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: -20px;
+    line-height: 0;
+}
+
+#bottombar {
+    width: 100%;
+    background-color: #B52C13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 140px;
+    color: #F8F6F2;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.column {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+}
+.wide-column {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 330px;
+}
+.full-width-column {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 660px;
+}
+.pic-column {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.picture {
+    border-radius: 50px;
+    object-fit: cover;
+    width: 250px;
+}
